@@ -77,7 +77,7 @@ document.addEventListener('deviceready',onDeviceReady, false);
 
 var MyCampusApp = {
     config : {
-        tenant : "TENANT_ID",
+        tenant : "IND1600",
         serverUrl : "https://kryptos.kryptosmobile.com",
         tenantFolder : function(device, tenant) {
             if(device.platform == 'Android') {
